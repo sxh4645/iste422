@@ -1,0 +1,9 @@
+<project>
+	<target name="jar">
+		<jar destfile="build/jar/HelloWorld.jar" basedir="build/classes">
+			<manifest>
+				<attribute name="myMainifest" value="oata.HelloWorld"/>
+			</manifest>
+		</jar>
+	</target>
+</project>
